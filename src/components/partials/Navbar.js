@@ -33,7 +33,6 @@ function Navbar() {
                             return (
                                 <li key={index} className={item.cName}>
                                     <Link to={item.path}>
-                                        {item.icon}
                                         <span className="strikethrough">{item.title}</span>
                                     </Link>
                                 </li>
