@@ -17,10 +17,12 @@ function Navbar() {
                     <Hamburger 
                     toggled={sidebar} 
                     toggle={setSidebar} 
-                    duration={0.8}
+                    duration={.8}
+                    distance="sm"
+                    size={24}
                     />
                 </Link>
-                <Link to ="/" className="home-name">
+                <Link to ="/" className="home-name strike">
                     AndreW bith
                 </Link>
             </div>
