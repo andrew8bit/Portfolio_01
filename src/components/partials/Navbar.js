@@ -23,7 +23,7 @@ function Navbar() {
                     />
                 </Link>
                 <Link to ="/" className="home-name strike">
-                    AndreW bith
+                    Andrew bith
                 </Link>
             </div>
             <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
