@@ -14,15 +14,16 @@ function Navbar() {
         <>
             <div className="navbar">
                 <Link to ="#" className="menu-bars">
-                    <Hamburger 
+                    <Hamburger
                     toggled={sidebar} 
                     toggle={setSidebar} 
                     duration={.5}
                     distance="sm"
                     size={24}
                     />
+                    <h3>{window.location.pathname}</h3>
                 </Link>
-                <Link to ="/" className="home-name strike">
+                <Link to ="/" className="home-name strike rainbow">
                     Andrew bith
                 </Link>
             </div>
@@ -33,7 +34,7 @@ function Navbar() {
                             return (
                                 <li key={index} className={item.cName}>
                                     <Link to={item.path}>
-                                        <span className="strike">{item.title}</span>
+                                        <span className="strike rainbow">{item.title}</span>
                                     </Link>
                                 </li>
                             )

@@ -14,19 +14,19 @@ export const SidebarData = [
     },
     {
         title: 'Projects',
-        path: '/',
+        path: '/projects',
         // icon: <AiIcons.AiFillHome />,
         cName: 'nav-text',
     },
     {
         title: 'Profile',
-        path: '/',
+        path: '/profile',
         // icon: <AiIcons.AiFillHome />,
         cName: 'nav-text',
     },
     {
         title: 'Contact',
-        path: '/',
+        path: '/contact',
         // icon: <AiIcons.AiFillHome />,
         cName: 'nav-text',
     },
