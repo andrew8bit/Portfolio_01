@@ -17,7 +17,7 @@ function Navbar() {
                     <Hamburger 
                     toggled={sidebar} 
                     toggle={setSidebar} 
-                    duration={.8}
+                    duration={.5}
                     distance="sm"
                     size={24}
                     />
@@ -33,7 +33,7 @@ function Navbar() {
                             return (
                                 <li key={index} className={item.cName}>
                                     <Link to={item.path}>
-                                        <span className="strikethrough">{item.title}</span>
+                                        <span className="strike">{item.title}</span>
                                     </Link>
                                 </li>
                             )
