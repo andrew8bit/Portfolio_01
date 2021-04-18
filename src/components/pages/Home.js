@@ -2,8 +2,13 @@ import React from 'react'
 
 export default function Home() {
     return (
-        <div>
-            
+        <div className="home-container">
+            <p>HELLO</p>
+            <p>HELLO</p>
+            <p>HELLO</p>
+            <p>HELLO</p>
+            <p>HELLO</p>
+            <p>HELLO</p>
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 export default function Splash() {
   return (
@@ -29,9 +30,9 @@ export default function Splash() {
           </ul>
       </div>
       <br />
-      <button className="light-fix">
-          <p>Fix the lights </p>
-      </button>
+      <Link to="/home" className="light-fix">
+          Fix the lights
+      </Link>
     </div>
   );
 }

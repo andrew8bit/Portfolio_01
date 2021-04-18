@@ -12,8 +12,9 @@ function Navbar() {
     const showSidebar = () => { setSidebar(!sidebar) };
     return (
         <>
+            <div className="nav">
             <div className="navbar">
-                <Link to ="#" className="menu-bars">
+                <div className="menu-bars">
                     <Hamburger
                     toggled={sidebar} 
                     toggle={setSidebar} 
@@ -22,7 +23,7 @@ function Navbar() {
                     size={24}
                     />
                     <h3>{window.location.pathname}</h3>
-                </Link>
+                </div>
                 <Link to ="/" className="home-name strike rainbow">
                     Andrew bith
                 </Link>
@@ -42,6 +43,7 @@ function Navbar() {
                     </li>
                 </ul>
             </nav>
+            </div>
         </>
     )
 }
