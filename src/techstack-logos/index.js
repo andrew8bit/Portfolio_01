@@ -4,6 +4,7 @@ export { default as django } from './django-icon.svg';
 export { default as javascript } from './javascript.svg';
 export { default as jupyter } from './jupyter.svg';
 export { default as mongodb } from './mongodb.svg';
+export { default as nodejs } from './nodejs.svg';
 export { default as postgresql } from './postgresql.svg';
 export { default as postman } from './postman.svg';
 export { default as python } from './python.svg';

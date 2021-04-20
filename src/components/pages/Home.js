@@ -6,6 +6,7 @@ import {
   javascript,
   jupyter,
   mongodb,
+  nodejs,
   postgresql,
   postman,
   python,
@@ -79,10 +80,59 @@ viewBox="0 0 50 50"
       <div className="x-break-white">
           <hr className="hr-text-white" data-content="X"></hr>
         </div>
-      <div className="stack-section">
-        <img src={html5} alt="html5" />
+        <div className="techstack-title">
+        <h1> Tech Stack </h1> 
+          </div> 
+      <div className="stack-section sibling-fade">
+        <div className="container">
+        <img className="tech-stack-img" src={html5} alt="html5"/>
+        <span className="tooltiptext2">HTML 5: Intermediate</span>
+        </div>
+        <div className="container">
+        <img className="tech-stack-img" src={css3} alt="css3"/>
+        <span className="tooltiptext2">CSS: Intermediate </span>
+        </div>
+        <div className="container">
+        <img className="tech-stack-img" src={javascript} alt="javascript"/>
+        <span className="tooltiptext2">Javascript{':'} Intermediate </span>
+        </div>
+        <div className="container">
+        <img className="tech-stack-img" src={python} alt="python"/>
+        <span className="tooltiptext2">Python: Intermediate</span>
+        </div>
+        <div className="container">
+        <img className="tech-stack-img" src={react} alt="react"/>
+        <span className="tooltiptext2">React: Intermediate - This porftolio is built w/ React!</span>
+        </div>
+        <div className="container">
+        <img className="tech-stack-img" src={sass} alt="sass"/>
+        <span className="tooltiptext2">Sass: Beginner - This portfolio was built using SCSS!</span>
+        </div>
+        <div className="container">
+        <img className="tech-stack-img" src={django} alt="django"/>
+        <span className="tooltiptext2">Django: Beginner</span>
+        </div>
+        <div className="container">
+        <img className="tech-stack-img" src={mongodb} alt="mongodb"/>
+        <span className="tooltiptext2">Mongodb: Intermediate</span>
+        </div>
+        <div className="container">
+        <img className="tech-stack-img" src={postgresql} alt="postgresql"/>
+        <span className="tooltiptext2">Postgresql: Intermediate</span>
+        </div>
+        <div className="container">
+        <img className="tech-stack-img" src={nodejs} alt="nodejs"/>
+        <span className="tooltiptext2">Nodejs: Intermediate</span>
+        </div>
+        <div className="container">
+        <img className="tech-stack-img" src={jupyter} alt="jupyter"/>
+        <span className="tooltiptext2">JupterLabs: Intermediate</span>
+        </div>
+        <div className="container">
+        <img className="tech-stack-img" src={postman} alt="postman"/>
+        <span className="tooltiptext2">Postman: Intermediate</span>
+        </div>
       </div>
-      
     </div>
   );
 }
