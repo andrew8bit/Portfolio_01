@@ -1,0 +1,11 @@
+export { default as html5 } from './html-5.svg';
+export { default as css3 } from './css-3.svg';
+export { default as django } from './django-icon.svg';
+export { default as javascript } from './javascript.svg';
+export { default as jupyter } from './jupyter.svg';
+export { default as mongodb } from './mongodb.svg';
+export { default as postgresql } from './postgresql.svg';
+export { default as postman } from './postman.svg';
+export { default as python } from './python.svg';
+export { default as react } from './react.svg';
+export { default as sass } from './sass.svg';

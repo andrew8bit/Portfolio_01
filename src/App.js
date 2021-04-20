@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <TransitionGroup>
+      <TransitionGroup component={null}>
 
           <CSSTransition
             timeout={1000}
@@ -30,9 +30,6 @@ function App() {
               <div>
                 <Navbar />
                 <Route path="/home" component={Home} />
-                {/* <Route exact path="/Projects" component={Projects} />
-                <Route exact path="/Profile" component={Profile} />
-                <Route exact path="/Contact" component={Contact} /> */}
               </div>
             </Switch>
 

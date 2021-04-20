@@ -24,7 +24,7 @@ function Navbar() {
                     />
                     <h3>{window.location.pathname}</h3>
                 </div>
-                <Link to ="/" className="home-name strike rainbow">
+                <Link to ="/" className="home-name strike-white ">
                     Andrew bith
                 </Link>
             </div>
@@ -35,7 +35,7 @@ function Navbar() {
                             return (
                                 <li key={index} className={item.cName}>
                                     <Link to={item.path}>
-                                        <span className="strike rainbow">{item.title}</span>
+                                        <span className="strike-white ">{item.title}</span>
                                     </Link>
                                 </li>
                             )
@@ -44,6 +44,9 @@ function Navbar() {
                 </ul>
             </nav>
             </div>
+            <div className="nav-spacer">
+            </div>
+           
         </>
     )
 }

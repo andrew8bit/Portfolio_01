@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 
 export default function Splash() {
   return (
+    
     <div className="splash-page">
       <div className="light-div">
         <button className="name-flicker">
@@ -30,7 +31,7 @@ export default function Splash() {
           </ul>
       </div>
       <br />
-      <Link to="/home" className="light-fix">
+      <Link to="/home" className="light-fix strike-white">
           Fix the lights
       </Link>
     </div>
