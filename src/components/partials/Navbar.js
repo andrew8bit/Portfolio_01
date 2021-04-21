@@ -25,7 +25,7 @@ function Navbar() {
                     <h3>{window.location.pathname}</h3>
                 </div>
                 <Link to ="/" className="home-name strike-white ">
-                    Andrew bith
+                    Andrew Bith
                 </Link>
             </div>
             <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
