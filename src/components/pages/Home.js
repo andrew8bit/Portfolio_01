@@ -146,12 +146,12 @@ export default function Home() {
             <span className="tooltiptext2">Django: Beginner</span>
           </div>
           <div className="container">
-            <img className="tech-stack-img" src={postgresql} alt="postgresql" />
-            <span className="tooltiptext2">Postgresql: Intermediate</span>
-          </div>
-          <div className="container">
             <img className="tech-stack-img" src={nodejs} alt="nodejs" />
             <span className="tooltiptext2">Nodejs: Intermediate</span>
+          </div>
+          <div className="container">
+            <img className="tech-stack-img" src={postgresql} alt="postgresql" />
+            <span className="tooltiptext2">Postgresql: Intermediate</span>
           </div>
           <div className="container">
             <img className="tech-stack-img" src={jupyter} alt="jupyter" />
@@ -162,26 +162,106 @@ export default function Home() {
             <span className="tooltiptext2">Postman: Intermediate</span>
           </div>
         </div>
-        <h1> and many <a href="/profile">more!</a></h1>
-        <p>If I don't know something, then chances are that I would love to learn!</p>
-        <p>Let me know what technology would be useful for you!</p> 
+        <h1>
+          {" "}
+          and many <a href="/profile">more!</a>
+        </h1>
+        <p>
+          If I don't know something, then chances are that I would love to
+          learn!
+        </p>
+        <p>Let me know what technology would be useful for you!</p>
       </div>
-
 
       <div className="x-break">
         <hr className="hr-text" data-content="X"></hr>
       </div>
       <div className="project-section">
+        <h1> Projects </h1>
+
+        <div className="py-3">
+          <div className="project-description">
+
+            <div className="project1 design-bg project">
+              <div className="project-overlay">
+                <h3>Gamogatchi</h3>
+                <div className="project-summary">
+                  <p>
+                    Gamogatchi was the first project I ever did as part of
+                    General Assembly's Software Engineering Immersive Program.
+                  </p>
+                  <div>
+                    <a href="https://www.gamogatchi.com" target="blank">View Site</a>
+                    <a href="https://www.github.com" target="blank"> Github</a>
+                    <div className="view-more">
+                    <a>View More Info</a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="project2 design-bg project">
+              <div className="project-overlay">
+                <h3>Golden Path</h3>
+                <div className="project-summary">
+                  <p>
+                    An online market place to promote learning
+                  </p>
+                  <div>
+                    <a href="https://www.gamogatchi.com" target="blank">View Site</a>
+                    <a href="https://www.github.com" target="blank"> Github</a>
+                    <div className="view-more">
+                    <a>View More Info</a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="project3 design-bg project">
+              <div className="project-overlay">
+                <h3>Munch</h3>
+                <div className="project-summary">
+                  <p>
+                    Online React application to mimic a food delivery service
+                  </p>
+                  <div>
+                    <a href="https://www.gamogatchi.com" target="blank">View Site</a>
+                    <a href="https://www.github.com" target="blank"> Github</a>
+                    <div className="view-more">
+                    <a>View More Info</a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
 
-
-
-
+            <div className="project4 design-bg project">
+              <div className="project-overlay">
+                <h3>Hidden.</h3>
+                <div className="project-summary">
+                  <p>
+                    Online web application built to bring awarness to human traficking 
+                  </p>
+                  <div>
+                    <a href="https://www.gamogatchi.com" target="blank">View Site</a>
+                    <a href="https://www.github.com" target="blank"> Github</a>
+                    <div className="view-more">
+                    <a>View More Info</a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-
-
-
+      <div>
+        <h1>Contact Me!</h1> 
+      </div>
 
 
     </div>
