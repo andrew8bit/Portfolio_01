@@ -25,7 +25,7 @@ export default function Splash() {
       <div className="typewriter">
           <ul className="dynamic-txt">
               <li><span className="teal flicker-txt">{"{Developer}"}</span></li>
-              <li><span className="orange flicker-txt">{"{Programmer}"}</span></li>
+              <li><span className="red flicker-txt">{"{Programmer}"}</span></li>
               <li><span className="yellow flicker-txt">{"{Engineer}"}</span></li>
               <li><span className="violet flicker-txt">{"{Student}"}</span></li>
           </ul>
