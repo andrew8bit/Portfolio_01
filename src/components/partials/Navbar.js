@@ -41,7 +41,7 @@ function Navbar() {
             </div>
             <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
                 <ul className="nav-menu-items" >
-                    <li className="navbar-toggle" onClick={showSidebar}>
+                    <ul className="navbar-toggle" onClick={showSidebar}>
                         {SidebarData.map((item, index) => {
                             if(item.path === '/profile' || location.pathname === "/profile") {
                                 return (
@@ -54,20 +54,20 @@ function Navbar() {
                             }
                             else if (item.path !== '/profile' && location.pathname !== "/profile") {
                                 return (
-                                <>
+                           
                                 <li key={index} className={item.cName}>
                                     <Link to={item.path} spy={true} smooth={true} onClick={showSidebar} offset={-60}>
                                         <span className="strike-white ">{item.title}</span>
                                     </Link>
                                 </li>
-                                </>
+                            
                                 )
                             }
                             else {
                                 return ( <> </>)
                             }
                         })}
-                    </li>
+                    </ul>
                 </ul>
             </nav>
             </div>

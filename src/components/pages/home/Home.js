@@ -3,6 +3,7 @@ import { Link as Anchor } from "react-router-dom";
 import { Link, animateScroll as scroll } from "react-scroll";
 import ParticleBackground from "../../../ParticleBackground";
 import { HomeSection, Contact, CodeDesign, TechStack, Projects } from "./";
+import Navbar from "../../partials/Navbar"
 import { Footer } from "../../partials";
 import { Element } from "react-scroll";
 import { TiMessages } from "react-icons/ti";
@@ -14,6 +15,7 @@ export default function Home() {
 
   return (
     <>
+      <Navbar />
       <ParticleBackground />
       <Element name="home" />
       <div className="home">

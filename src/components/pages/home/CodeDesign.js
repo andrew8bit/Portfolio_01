@@ -6,7 +6,6 @@ export default function CodeDesign() {
     <>
       {CodeDesignData.map((item, index) => {
         return (
-          <>
             <div key={index} className={item.cName}>
               <p> {item.title} </p>
               <svg
@@ -21,7 +20,6 @@ export default function CodeDesign() {
               </svg>
               <p> {item.description ? item.description : null} </p>
             </div>
-          </>
         );
       })}
     </>

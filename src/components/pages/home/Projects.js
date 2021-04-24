@@ -6,7 +6,6 @@ export default function Projects() {
     <>
       {ProjectData.map((item, index) => {
         return (
-          <>
             <div key={index} className={item.cName}>
               <div className="project-overlay">
                 <div className="project-summary">
@@ -28,7 +27,6 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-          </>
         );
       })}
     </>

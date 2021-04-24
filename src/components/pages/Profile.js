@@ -2,9 +2,12 @@ import React from "react";
 import ParticleBackground from "../../ParticleBackground";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { AiOutlineDownload } from "react-icons/ai";
+import Navbar from "../partials/Navbar";
 
 export default function Profile() {
   return (
+    <>
+      <Navbar/>
     <div className="profile-page">
       <ParticleBackground />
       
@@ -109,5 +112,6 @@ export default function Profile() {
         </div>
     </div>
 </div>
+</>
   );
 }

@@ -3,7 +3,6 @@ import "./css/main.css";
 import { Switch, Route, useLocation } from "react-router-dom";
 import {
   Profile,
-  Navbar,
   Splash,
 } from "./components/";
 
@@ -11,7 +10,7 @@ import {
   Home
 } from "./components/pages/home"
 
-import { TransitionGroup, CSSTransition } from "react-transition-group";
+// import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 function App() {
   const location = useLocation();
@@ -19,25 +18,23 @@ function App() {
 
   return (
     <>
-      <TransitionGroup component={null}>
+      {/* <TransitionGroup component={null}>
           <CSSTransition
             timeout={1000}
             classNames='fade-'
             key={location.key}
             unmountOnExit={true}
             appear={true}
-            >
+            > */}
+            
             <Switch location={location}>
                 <Route exact path="/" component={Splash} />
-              <div>
-                <Navbar />
                 <Route exact path="/home" component={Home} />
-                <Route path="/profile" component={Profile} />
-              </div>
+                <Route exact path="/profile" component={Profile} />
             </Switch>
 
-          </CSSTransition>
-      </TransitionGroup>
+          {/* </CSSTransition>
+      </TransitionGroup> */}
     </>
   );
 }
