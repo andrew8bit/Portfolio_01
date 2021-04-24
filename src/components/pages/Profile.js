@@ -31,10 +31,12 @@ export default function Profile() {
           <FaFacebook size="5em" />
         </a>
       </div>
+          <div className="mobile-section profile-section mobile-img">
             <img className="mobile-img"
               src="https://res.cloudinary.com/andrew8bit/image/upload/v1619216334/IMG_1169_dpghae.jpg"
               alt="profile"
             />
+          </div>
 
     <div className="profile-section">
         <div className="profile-top">

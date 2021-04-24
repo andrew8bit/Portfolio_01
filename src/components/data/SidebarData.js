@@ -1,9 +1,6 @@
-import React from 'react';
-
-// This is where we're mapping the data for the sidenav
-
 export const SidebarData = [
     {
+        key:0,
         title: 'Home',
         path: 'home',
         pathHome: '/home',
@@ -11,6 +8,7 @@ export const SidebarData = [
         cName: 'nav-text',
     },
     {
+        key:1,
         title: 'Design',
         path: 'code-design',
         pathHome: '/home',
@@ -18,6 +16,7 @@ export const SidebarData = [
         cName: 'nav-text',
     },
     {
+        key:2,
         title: 'Stack',
         path: 'tech-stack',
         pathHome: '/home',
@@ -25,6 +24,7 @@ export const SidebarData = [
         cName: 'nav-text',
     },
     {
+        key:3,
         title: 'Projects',
         path: 'projects',
         pathHome: '/home',
@@ -32,6 +32,7 @@ export const SidebarData = [
         cName: 'nav-text',
     },
     {
+        key:4,
         title: 'Contact',
         path: 'contact',
         pathHome: '/home',
@@ -39,6 +40,7 @@ export const SidebarData = [
         cName: 'nav-text',
     },
     {
+        key:5,
         title: 'Profile',
         path: '/profile',
         pathHome: '/profile',

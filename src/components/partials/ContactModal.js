@@ -59,7 +59,7 @@ export default function ContactModal({
                 <div className="name-email">
 
                   <div className="name">
-                    <label for="name"></label>
+                    <label HTMLfor="name"></label>
                     <input
                       type="text"
                       placeholder="MY NAME IS"
@@ -70,7 +70,7 @@ export default function ContactModal({
                   </div>
 
                   <div className="email">
-                    <label for="email"></label>
+                    <label HTMLfor="email"></label>
                     <input
                       type="email"
                       placeholder="MY EMAIL IS"
@@ -87,7 +87,7 @@ export default function ContactModal({
                 </div>
 
                 <div className="message">
-                  <label for="message"></label>
+                  <label HTMLfor="message"></label>
                   <textarea
                     name="message"
                     placeholder="I'D LIKE TO CHAT ABOUT"

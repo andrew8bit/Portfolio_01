@@ -21,7 +21,7 @@ function Navbar() {
             <div className="nav">
             <div className="navbar">
             
-            { location.pathname != "/profile" ? 
+            { location.pathname !== "/profile" ? 
                 <div className="menu-bars">
                     <Hamburger
                     toggled={sidebar} 
@@ -64,7 +64,7 @@ function Navbar() {
                                 )
                             }
                             else {
-                                
+                                return ( <> </>)
                             }
                         })}
                     </li>

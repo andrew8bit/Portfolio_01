@@ -7,7 +7,7 @@ export default function CodeDesign() {
       {CodeDesignData.map((item, index) => {
         return (
           <>
-            <div key={index} className={item.className}>
+            <div key={index} className={item.cName}>
               <p> {item.title} </p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
