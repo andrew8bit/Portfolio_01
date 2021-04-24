@@ -5,25 +5,29 @@ import React from 'react';
 export const SidebarData = [
     {
         title: 'Home',
-        path: '/',
+        path: 'home',
+        pathHome: '/home',
         // icon: <AiIcons.AiFillHome />,
         cName: 'nav-text',
     },
     {
         title: 'Projects',
-        path: '/projects',
+        path: 'projects',
+        pathHome: '/home',
         // icon: <AiIcons.AiFillHome />,
         cName: 'nav-text',
     },
     {
         title: 'Profile',
         path: '/profile',
+        pathHome: '/profile',
         // icon: <AiIcons.AiFillHome />,
         cName: 'nav-text',
     },
     {
         title: 'Contact',
-        path: '/contact',
+        path: 'contact',
+        pathHome: '/home',
         // icon: <AiIcons.AiFillHome />,
         cName: 'nav-text',
     },

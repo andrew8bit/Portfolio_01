@@ -1,18 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from 'react-router-dom';
 import ParticleBackground from "../../../ParticleBackground";
 import { HomeSection, Contact, CodeDesign, TechStack } from "./";
 import { Footer } from "../../partials";
+import { Element } from "react-scroll";
 
 export default function Home() {
-  const particlesInit = (main) => {
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-  };
 
-  const particlesLoaded = (container) => {};
+//   const location = useLocation()
+
+//   useEffect(()=> {
+//     if (location.hash) {
+//         let elem = document.getElementById(location.hash.slice(1))
+//         if (elem) {
+//             elem.scrollIntoView({behavior: "smooth"})
+//         }
+//     } else {
+//     window.scrollTo({top:0,left:0, behavior: "smooth"})
+//     }
+// }, [location,])
 
   return (
     <>
       <ParticleBackground />
+      <Element name="home" />
       <div className="home">
         <HomeSection />
 
@@ -53,6 +64,7 @@ export default function Home() {
         </div>
 
         <div className="project-section">
+        <Element name="projects" />
           <h1> Projects </h1>
 
           <div className="project-container">
@@ -155,7 +167,8 @@ export default function Home() {
         <div className="x-break py-4">
           <hr className="hr-text" data-content="X"></hr>
         </div>
-        <Contact />
+        <Element name="contact" id="contact" />
+        <Contact/>
       </div>
       <Footer />
     </>

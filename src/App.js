@@ -31,7 +31,7 @@ function App() {
                 <Route exact path="/" component={Splash} />
               <div>
                 <Navbar />
-                <Route path="/home" component={Home} />
+                <Route exact path="/home" component={Home} />
                 <Route path="/profile" component={Profile} />
               </div>
             </Switch>
