@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/main.css";
-import { Switch, Route, useLocation } from "react-router-dom";
+import { Switch, Route, useLocation, BrowserRouter as Router } from "react-router-dom";
 import {
   Profile,
   Splash,
