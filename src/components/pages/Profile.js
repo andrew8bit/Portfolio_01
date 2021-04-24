@@ -57,7 +57,7 @@ export default function Profile() {
               <h4> Long Beach, CA - Andrewbith@gmail.com</h4>
               <span className="profile-download">
                 <h4>Resume </h4>
-                <a href="mailto:andrewbith@gmail.com" target="blank">
+                <a href="https://docs.google.com/document/d/15gxRoTrk3TjbVyrG3ZXhP8ikeFIdxSw82e0In3nZ6XE/edit?usp=sharing" target="blank">
                   <AiOutlineDownload size="2em" />
                 </a>
               </span>

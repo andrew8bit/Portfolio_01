@@ -47,7 +47,7 @@ export default function ContactModal({
               <div>
                 <p>Resume</p>
                 <p>
-                  <a href="mailto:andrewbith@gmail.com" target="blank">
+                  <a href="https://docs.google.com/document/d/15gxRoTrk3TjbVyrG3ZXhP8ikeFIdxSw82e0In3nZ6XE/edit?usp=sharing" target="blank">
                     <AiOutlineDownload size="2em" />
                   </a>
                 </p>
