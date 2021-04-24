@@ -1,24 +1,17 @@
-import React, { useEffect } from "react";
-import { useLocation } from 'react-router-dom';
+import React from "react";
+import { Link as Anchor } from 'react-router-dom';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import ParticleBackground from "../../../ParticleBackground";
 import { HomeSection, Contact, CodeDesign, TechStack } from "./";
 import { Footer } from "../../partials";
 import { Element } from "react-scroll";
+import { TiMessages } from "react-icons/ti";
 
 export default function Home() {
 
-//   const location = useLocation()
-
-//   useEffect(()=> {
-//     if (location.hash) {
-//         let elem = document.getElementById(location.hash.slice(1))
-//         if (elem) {
-//             elem.scrollIntoView({behavior: "smooth"})
-//         }
-//     } else {
-//     window.scrollTo({top:0,left:0, behavior: "smooth"})
-//     }
-// }, [location,])
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+}
 
   return (
     <>
@@ -51,15 +44,19 @@ export default function Home() {
 
           <h1>
             {" "}
-            and many <a href="/profile">more!</a>
+            and many <Anchor to="/profile" className="more-profile" onClick={scrollToTop}> more!</Anchor>
           </h1>
 
           <p>
             If I don't know something, then chances are that I would love to
             learn!
           </p>
+          <p>
+          Let me know what technology would be useful for you!
+            </p>
 
-          <p>Let me know what technology would be useful for you!</p>
+          <Link to="contact" spy={true} smooth={true} offset={-60}> <span className="small-contact" ><TiMessages/></span> </Link>
+          
         </div>
 
         <div className="x-break py-4">

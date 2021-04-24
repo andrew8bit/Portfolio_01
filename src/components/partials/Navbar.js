@@ -8,9 +8,10 @@ import "../../css/main.css"
 function Navbar() {
 
     const location = useLocation();
+    
     const scrollToTop = () => {
         scroll.scrollToTop();
-      }
+    }
 
     const [ sidebar, setSidebar ] = useState(false);
     const showSidebar = () => { setSidebar(!sidebar) };
