@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./css/main.css";
 import { BrowserRouter as Router, Switch, Route, useLocation } from "react-router-dom";
 import {
+  Profile,
   Navbar,
   Splash,
 } from "./components/";
@@ -31,6 +32,7 @@ function App() {
               <div>
                 <Navbar />
                 <Route path="/home" component={Home} />
+                <Route path="/profile" component={Profile} />
               </div>
             </Switch>
 

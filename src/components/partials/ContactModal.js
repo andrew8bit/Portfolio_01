@@ -6,6 +6,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 export default function ContactModal({
   showContactModal,
   setShowContactModal,
+  sendEmail
 }) {
   const modalRef = useRef();
 
@@ -53,7 +54,7 @@ export default function ContactModal({
               </div>
             </div>
             <div className="modal-content">
-              <form action="#" className="contact-form">
+              <form onSubmit={sendEmail} className="contact-form">
 
                 <div className="name-email">
 
@@ -82,7 +83,7 @@ export default function ContactModal({
                 </div>
 
                 <div className="subject">
-                  <input type="text" placeholder="SUBJECT" className="subject" id="subject_input" required/>
+                  <input type="text" name="subject" placeholder="SUBJECT" className="subject" id="subject_input" required/>
                 </div>
 
                 <div className="message">

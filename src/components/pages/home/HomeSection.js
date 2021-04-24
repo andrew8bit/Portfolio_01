@@ -7,7 +7,8 @@ export default function HomeSection() {
         <div className="home-img-container">
           <img
             className="home-img-01"
-            src="https://res.cloudinary.com/andrew8bit/image/upload/v1618611063/landingpage-portfolio_wyoakz.jpg"
+            // src="https://res.cloudinary.com/andrew8bit/image/upload/v1618611063/landingpage-portfolio_wyoakz.jpg"
+            src="https://res.cloudinary.com/andrew8bit/image/upload/v1619230567/image0_ltpsim.png"
             alt="homepage"
           />
         </div>

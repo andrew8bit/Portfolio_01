@@ -14,7 +14,7 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "gmail",
+        "service_izq149d",
         "template_imyjhzg",
         e.target,
         "user_dX0kwQ7s8pvhU698ZTJjA"
@@ -26,7 +26,9 @@ export default function Contact() {
         (error) => {
           console.log(error.text);
         }
-      );
+        );
+
+        e.target.reset()
   }
 
   return (
@@ -40,6 +42,7 @@ export default function Contact() {
         <ContactModal
             showContactModal={showContactModal}
             setShowContactModal={setShowContactModal}
+            sendEmail={sendEmail}
           />
           <div className="call-to-action">
         

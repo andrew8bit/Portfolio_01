@@ -4,7 +4,7 @@ import particlesConfig from './config/ParticleConfig';
 
 export default function ParticleBackground() {
     return (
-        <Particles
+        <Particles className="transparent"
         options={particlesConfig}>
         </Particles>
     )
