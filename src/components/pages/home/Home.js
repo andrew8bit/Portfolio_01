@@ -29,6 +29,7 @@ export default function Home() {
 
         <div className="code-design">
           <h1> My Code Design </h1>
+          <Element name="code-design" />
           <div className="code-design-description sibling-fade">
             <CodeDesign />
           </div>
@@ -38,7 +39,9 @@ export default function Home() {
           <hr className="hr-text-white" data-content="X"></hr>
         </div>
 
+
         <div className="tech-stack">
+          <Element name="tech-stack" />
           <div className="techstack-title">
             <h1> Tech Stack </h1>
           </div>

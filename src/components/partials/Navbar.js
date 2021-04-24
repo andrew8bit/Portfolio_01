@@ -20,6 +20,7 @@ function Navbar() {
             <div className="nav">
             <div className="navbar">
             
+            { location.pathname != "/profile" ? 
                 <div className="menu-bars">
                     <Hamburger
                     toggled={sidebar} 
@@ -30,7 +31,10 @@ function Navbar() {
                     />
                     {/* <h3>{window.location.pathname}</h3> */}
                 </div>
-                <Anchor activeClass="active" to="/home" onClick={scrollToTop} className="home-name strike-white ">
+            : <div></div>
+            
+        }
+                <Anchor to="/home" onClick={scrollToTop} className="home-name strike-white ">
                     Andrew Bith
                 </Anchor>
             </div>
@@ -51,12 +55,15 @@ function Navbar() {
                                 return (
                                 <>
                                 <li key={index} className={item.cName}>
-                                    <Link to={item.path} spy={true} smooth={true} onClick={showSidebar}>
+                                    <Link to={item.path} spy={true} smooth={true} onClick={showSidebar} offset={-60}>
                                         <span className="strike-white ">{item.title}</span>
                                     </Link>
                                 </li>
                                 </>
                                 )
+                            }
+                            else {
+                                
                             }
                         })}
                     </li>
