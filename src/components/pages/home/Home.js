@@ -33,8 +33,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="x-break-white py-4">
-          <hr className="hr-text-white" data-content="X"></hr>
+        <div className="x-break py-4">
+          <hr className="hr-text" data-content="X"></hr>
         </div>
 
         <div className="tech-stack">
