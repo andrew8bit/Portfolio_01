@@ -39,9 +39,9 @@ export default function Home() {
 
         <div className="tech-stack">
           <Element name="tech-stack" />
-          <div className="techstack-title">
+     
             <h1> Tech Stack </h1>
-          </div>
+        
           <div className="stack-section sibling-fade">
             <TechStack />
           </div>
