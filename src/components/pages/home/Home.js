@@ -25,18 +25,6 @@ export default function Home() {
           <hr className="hr-text" data-content="X"></hr>
         </div>
 
-        <div className="code-design">
-          <h1> My Code Design </h1>
-          <Element name="code-design" />
-          <div className="code-design-description sibling-fade">
-            <CodeDesign />
-          </div>
-        </div>
-
-        <div className="x-break py-4">
-          <hr className="hr-text" data-content="X"></hr>
-        </div>
-
         <div className="tech-stack">
           <Element name="tech-stack" />
      
@@ -85,6 +73,19 @@ export default function Home() {
             <div className="project-description">
               <Projects />
             </div>
+          </div>
+        </div>
+
+
+        <div className="x-break py-4">
+          <hr className="hr-text" data-content="X"></hr>
+        </div>
+
+        <div className="code-design">
+          <h1> My Code Design </h1>
+          <Element name="code-design" />
+          <div className="code-design-description sibling-fade">
+            <CodeDesign />
           </div>
         </div>
 
