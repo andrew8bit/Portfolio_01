@@ -21,6 +21,7 @@ export default function Contact() {
       )
       .then(
         (result) => {
+          e.target.reset()
           console.log(result.text);
         },
         (error) => {
@@ -28,7 +29,7 @@ export default function Contact() {
         }
         );
 
-        e.target.reset()
+       
   }
 
   return (

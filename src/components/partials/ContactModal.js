@@ -1,13 +1,14 @@
 import React, { useRef, useEffect, useCallback } from "react";
 import { GrClose } from "react-icons/gr";
 import { RiMailCheckLine } from "react-icons/ri";
-import { AiOutlineDownload } from "react-icons/ai";
+import { AiOutlineProfile } from "react-icons/ai";
 
 export default function ContactModal({
   showContactModal,
   setShowContactModal,
   sendEmail
 }) {
+  
   const modalRef = useRef();
 
   const closeModal = (e) => {
@@ -48,7 +49,7 @@ export default function ContactModal({
                 <p>Resume</p>
                 <p>
                   <a href="https://docs.google.com/document/d/15gxRoTrk3TjbVyrG3ZXhP8ikeFIdxSw82e0In3nZ6XE/edit?usp=sharing" target="blank">
-                    <AiOutlineDownload size="2em" />
+                    <AiOutlineProfile size="2em" />
                   </a>
                 </p>
               </div>

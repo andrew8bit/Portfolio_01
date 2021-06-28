@@ -1,7 +1,7 @@
 import React from "react";
 import ParticleBackground from "../../ParticleBackground";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
-import { AiOutlineDownload } from "react-icons/ai";
+import { AiOutlineProfile } from "react-icons/ai";
 import Navbar from "../partials/Navbar";
 
 export default function Profile() {
@@ -58,7 +58,7 @@ export default function Profile() {
               <span className="profile-download">
                 <h4>Resume </h4>
                 <a href="https://docs.google.com/document/d/15gxRoTrk3TjbVyrG3ZXhP8ikeFIdxSw82e0In3nZ6XE/edit?usp=sharing" target="blank">
-                  <AiOutlineDownload size="2em" />
+                  <AiOutlineProfile size="2em" />
                 </a>
               </span>
             </div>

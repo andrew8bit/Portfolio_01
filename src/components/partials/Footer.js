@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
-import { ImProfile } from "react-icons/im";
+import { CgProfile } from "react-icons/cg";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -13,7 +13,7 @@ export default function Footer() {
     <>
       <div className="footer">
             <Link className="hover-yellow" to="/profile" onClick={scrollToTop}>
-            <ImProfile size="5em" />
+            <CgProfile size="5em" />
             </Link>
             <a className="hover-violet" href="https://www.github.com/andrew8bit" target="blank">
             <FaGithub size="5em" />
